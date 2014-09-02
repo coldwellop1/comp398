@@ -1,0 +1,173 @@
+~~~~~America's Top 50 TV Shows of 2012-2013~~~~~
+Print list before searching? (Y/N) Y
+Rank:1  Network:NBC  Program:NBC NFL SUNDAY NT FOOTBALL  Airings:17  Viewers:214
+43
+
+
+Rank:2  Network:CBS  Program:NCIS  Airings:26  Viewers:21344
+
+
+Rank:3  Network:CBS  Program:Big Bang Theory  Airings:30  Viewers:18680
+
+
+Rank:4  Network:CBS  Program:NCIS:LA  Airings:26  Viewers:17306
+
+
+Rank:5  Network:CBS  Program:Person Of Interest  Airings:27  Viewers:16072
+
+
+Rank:6  Network:NBC  Program:NBC NFL SUNDAY NT PRE-KICK  Airings:17  Viewers:155
+71
+
+
+Rank:7  Network:FOX  Program:American Idol-WED  Airings:18  Viewers:15040
+
+
+Rank:8  Network:ABC  Program:Dancing with the Stars  Airings:19  Viewers:14853
+
+
+Rank:9  Network:FOX  Program:American Idol-THU  Airings:18  Viewers:14649
+
+
+Rank:10  Network:NBC  Program:VOICE  Airings:23  Viewers:14238
+
+
+Rank:11  Network:CBS  Program:Two and a Half Men  Airings:29  Viewers:13788
+
+
+Rank:12  Network:ABC  Program:Dancing with the Stars RSLTS  Airings:16  Viewers:
+13782
+
+
+Rank:13  Network:NBC  Program:VOICE-TUE  Airings:22  Viewers:13342
+
+
+Rank:14  Network:CBS  Program:Blue Bloods  Airings:24  Viewers:13167
+
+
+Rank:15  Network:CBS  Program:Elementary  Airings:28  Viewers:12652
+
+
+Rank:16  Network:FOX  Program:OT-FOX  Airings:6  Viewers:12432
+
+
+Rank:17  Network:CBS  Program:60 Minutes  Airings:29  Viewers:12385
+
+
+Rank:18  Network:ABC  Program:Modern Family  Airings:32  Viewers:12306
+
+
+Rank:19  Network:ABC  Program:Castle  Airings:28  Viewers:12256
+
+
+Rank:20  Network:CBS  Program:Criminal Minds  Airings:29  Viewers:12153
+
+
+Rank:21  Network:CBS  Program:VEGAS  Airings:20  Viewers:11935
+
+
+Rank:22  Network:FOX  Program:FOLLOWING  Airings:15  Viewers:11867
+
+
+Rank:23  Network:CBS  Program:SURVIVOR:PHILIPPINES-FL12  Airings:10  Viewers:118
+51
+
+
+Rank:24  Network:CBS  Program:Mentalist  Airings:25  Viewers:11816
+
+
+Rank:25  Network:CBS  Program:CSI  Airings:27  Viewers:11633
+
+
+Rank:26  Network:CBS  Program:CSI NY  Airings:17  Viewers:11266
+
+
+Rank:27  Network:NBC  Program:FOOTBALL NT IN AMERICA 3  Airings:17  Viewers:1115
+5
+
+
+Rank:28  Network:ABC  Program:GREY'S ANATOMY  Airings:28  Viewers:11070
+
+
+Rank:29  Network:CBS  Program:Good Wife  Airings:23  Viewers:10987
+
+
+Rank:30  Network:CBS  Program:SURVIVOR:CARAMOAN-SG13  Airings:13  Viewers:10815
+
+
+Rank:31  Network:CBS  Program:Amazing Race:21  Airings:11  Viewers:10683
+
+
+Rank:32  Network:CBS  Program:2 Broke Girls  Airings:29  Viewers:10627
+
+
+Rank:33  Network:NBC  Program:REVOLUTION  Airings:17  Viewers:10527
+
+
+Rank:34  Network:ABC  Program:Body Of Proof  Airings:12  Viewers:10386
+
+
+Rank:35  Network:CBS  Program:Hawaii Five-0  Airings:30  Viewers:10362
+
+
+Rank:36  Network:ABC  Program:Once Upon A Time  Airings:25  Viewers:10235
+
+
+Rank:37  Network:CBS  Program:MIKE & MOLLY  Airings:29  Viewers:10218
+
+
+Rank:38  Network:CBS  Program:Amazing Race:22  Airings:10  Viewers:10173
+
+
+Rank:39  Network:FOX  Program:X-FACTOR-WED  Airings:11  Viewers:9865
+
+
+Rank:40  Network:FOX  Program:X-FACTOR-THU  Airings:11  Viewers:9726
+
+
+Rank:41  Network:CBS  Program:Golden Boy  Airings:12  Viewers:9688
+
+
+Rank:42  Network:FOX  Program:BONES  Airings:26  Viewers:9518
+
+
+Rank:43  Network:ABC  Program:BACHELOR  Airings:10  Viewers:9475
+
+
+Rank:44  Network:CBS  Program:How I Met Your Mother  Airings:29  Viewers:9022
+
+
+Rank:45  Network:ABC  Program:REVENGE  Airings:22  Viewers:8871
+
+
+Rank:46  Network:CBS  Program:60 Minutes PRESENTS  Airings:2  Viewers:8838
+
+
+Rank:47  Network:ABC  Program:SCANDAL  Airings:29  Viewers:8456
+
+
+Rank:48  Network:ABC  Program:MIDDLE  Airings:31  Viewers:8400
+
+
+Rank:49  Network:CBS  Program:Undercover Boss  Airings:20  Viewers:8365
+
+
+Rank:50  Network:FOX  Program:Glee  Airings:22  Viewers:8258
+
+
+
+Search Codes:
+Ranking: 1
+Network: 2
+Program: 3
+Airings: 4
+Viewers: 5
+Exit: 0
+Please enter the code for the search method you would like to use : 3
+
+Please enter the full name of the program you would like to see the entry for: M
+IDDLE
+Rank:48  Network:ABC  Program:MIDDLE  Airings:31  Viewers:8400
+
+
+Press any key to continue . . .
