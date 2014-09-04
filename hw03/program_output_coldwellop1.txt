@@ -1,0 +1,66 @@
+Welcome to the database of infectious diseases.  How would you like to browse th
+e database?
+1. View the whole database
+2. View all diseases in the database starting from a specified letter
+3. View all diseases in the database up to (not including) a specified letter
+4. View all diseases in the database starting from a specified letter up to (not
+ including) a specified letter
+4
+What letter would you like to start with?
+C
+What letter would you like to stop on?
+F
+C
+Calicivirus infection (Norovirus and Sapovirus) is caused by Caliciviridae famil
+y
+Campylobacteriosis is caused by Campylobacter genus
+Candidiasis (Moniliasis; Thrush) is caused by usually Candida albicans and other
+ Candida species
+Cat-scratch disease is caused by Bartonella henselae
+Cellulitis is caused by usually Group A Streptococcus and Staphylococcus
+Chagas Disease (American trypanosomiasis) is caused by Trypanosoma cruzi
+Chancroid is caused by Haemophilus ducreyi
+Chickenpox is caused by Varicella zoster virus (VZV)
+Chikungunya is caused by Alphavirus
+Chlamydia is caused by Chlamydia trachomatis
+Chlamydophila pneumoniae infection (Taiwan acute respiratory agent or
+TWAR) is caused by Chlamydophila pneumoniae
+Cholera is caused by Vibrio cholerae
+Chromoblastomycosis is caused by usually Fonsecaea pedrosoi
+Clonorchiasis is caused by Clonorchis sinensis
+Clostridium difficile infection is caused by Clostridium difficile
+Coccidioidomycosis is caused by Coccidioides immitis and Coccidioides posadasii
+Colorado tick fever (CTF) is caused by Colorado tick fever virus (CTFV)
+Common cold (Acute viral rhinopharyngitis; Acute coryza) is caused by usually rh
+inoviruses and coronaviruses.
+Creutzfeldt-Jakob disease (CJD) is caused by PRNP
+Crimean-Congo hemorrhagic fever (CCHF) is caused by Crimean-Congo hemorrhagic fe
+ver virus
+Cryptococcosis is caused by Cryptococcus neoformans
+Cryptosporidiosis is caused by Cryptosporidium genus
+Cutaneous larva migrans (CLM) is caused by usually Ancylostoma braziliense; mult
+iple other parasites
+Cyclosporiasis is caused by Cyclospora cayetanensis
+Cysticercosis is caused by Taenia solium
+Cytomegalovirus infection is caused by Cytomegalovirus
+D
+Dengue fever is caused by Dengue viruses (DEN-1, DEN-2, DEN-3 and DEN-4); Flaviv
+iruses
+Dientamoebiasis is caused by Dientamoeba fragilis
+Diphtheria is caused by Corynebacterium diphtheriae
+Diphyllobothriasis is caused by Diphyllobothrium
+Dracunculiasis is caused by Dracunculus medinensis
+E
+Ebola hemorrhagic fever is caused by Ebolavirus (EBOV)
+Echinococcosis is caused by Echinococcus genus
+Ehrlichiosis is caused by Ehrlichia genus
+Enterobiasis (Pinworm infection) is caused by Enterobius vermicularis
+Enterococcus infection is caused by Enterococcus genus
+Enterovirus infection is caused by Enterovirus genus
+Epidemic typhus is caused by Rickettsia prowazekii
+Erythema infectiosum (Fifth disease) is caused by Parvovirus B19
+Exanthem subitum (Sixth disease) is caused by Human herpesvirus 6 (HHV-6) and Hu
+man herpesvirus 7 (HHV-7)
+Epstein-Barr Virus Infectious Mononucleosis (Mono) is caused by Epstein-Barr Vir
+us (EBV)
+Press any key to continue . . .
