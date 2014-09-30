@@ -1,0 +1,23 @@
+WINDOW
+
+HELP | EXIT
+
+Schedule of Classes
+
+ 	
+Transparent Image
+ Information	Click on:
+a subject/number/section in the Course column to view the course description
+an exam code to view the exam date and time. Please note: exam information only available for the current semester plus the one following it.
+an instructor name to view their faculty profile
+a connection number (conx) to view the connection description
+for a Complete List of Foundations, Divisions and Academic Areas, simply click on the Help link above.
+Information	The course/connection you selected is not being offered at this time.
+Class Schedule Data for Summer 2014
+Transparent Image
+Return to Search Course Catalog & Schedule page
+ 
+
+RELEASE: 8.0
+
+© 2014 Ellucian Company L.P. and its affiliates.

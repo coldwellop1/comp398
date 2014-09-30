@@ -1,0 +1,139 @@
+WINDOW
+
+HELP | EXIT
+
+Schedule of Classes
+
+ 	
+Transparent Image
+ Information	Click on:
+a subject/number/section in the Course column to view the course description
+an exam code to view the exam date and time. Please note: exam information only available for the current semester plus the one following it.
+an instructor name to view their faculty profile
+a connection number (conx) to view the connection description
+for a Complete List of Foundations, Divisions and Academic Areas, simply click on the Help link above.
+Class Schedule Data for Spring 2014
+ 
+Mathematics
+Course	Exam	Title	CRN	Days/Times 
+Location	Instructor(s)	Found	Div	Area	Conx	View Textbook
+Course Material
+MATH-101 B01	
+C.	Calculus I	10152	T 8:30 AM - 9:20 AM 
+Mars Center-Science/Technology 1141 
+M W F 10:30 AM - 11:20 AM 
+Mars Center-Science/Technology 1141	Herr, Daniel	QA		ARMC	2004	Textbook
+ 	Permission of Instructor.
+ 	Max Enroll: 30	Seats Taken: 24	Seats Avail: 6	Wait List: 0
+
+MATH-101 B02	
+B.	Calculus I	10153	M W F 9:30 AM - 10:20 AM 
+Mars Center-Science/Technology 1141 
+T 1:00 PM - 1:50 PM 
+Mars Center-Science/Technology 1141	DeCoste, Rachelle C.	QA		ARMC	2004	Textbook
+ 	Permission of Instructor.
+ 	Max Enroll: 30	Seats Taken: 27	Seats Avail: 3	Wait List: 0
+
+MATH-104 B	
+C.	Calculus II	10154	M W F 10:30 AM - 11:20 AM 
+Science Center 1314 
+R 1:00 PM - 1:50 PM 
+Science Center 1314	Ratliff, Thomas C.	QA		ARMC		Textbook
+ 	Permission of Instructor.
+ 	Max Enroll: 30	Seats Taken: 30	Seats Avail: 0	Wait List: 0
+
+MATH-126 B	
+M.	Math and Pop Culture	10446	T R 9:30 AM - 10:50 AM 
+Mars Center-Science/Technology 1141	Kahn, Michael J.	QA		ARMC		Textbook
+ 	Permission of Instructor.
+ 	Max Enroll: 30	Seats Taken: 28	Seats Avail: 2	Wait List: 0
+
+MATH-141 B01	
+N.	Introductory Statistics	10155	T R 11:00 AM - 12:20 PM 
+Mars Center-Science/Technology 1141	Bloch, William L.	QA		ARMC	2044
+2063	Textbook
+ 	Permission of Instructor.
+ 	Max Enroll: 30	Seats Taken: 32	Seats Avail: -2	Wait List: 0
+
+MATH-141 B02	
+D.	Introductory Statistics	10156	M W F 11:30 AM - 12:20 PM 
+Mars Center-Science/Technology 1141	Leibowitz, Rochelle	QA		ARMC	2044
+2063	Textbook
+ 	Permission of Instructor.
+ 	Max Enroll: 30	Seats Taken: 28	Seats Avail: 2	Wait List: 0
+
+MATH-141 B03	
+O.	Introductory Statistics	10157	T R 2:00 PM - 3:20 PM 
+Mars Center-Science/Technology 1141	Bloch, William L.	QA		ARMC	2044
+2063	Textbook
+ 	Permission of Instructor.
+ 	Max Enroll: 30	Seats Taken: 31	Seats Avail: -1	Wait List: 0
+
+MATH-141 B04	
+K.	Introductory Statistics	10158	M W 2:00 PM - 3:20 PM 
+Mars Center-Science/Technology 1141	DeCoste, Rachelle C.	QA		ARMC	2044
+2063	Textbook
+ 	Permission of Instructor.
+ 	Max Enroll: 30	Seats Taken: 29	Seats Avail: 1	Wait List: 0
+
+MATH-211 B	
+A.	Discrete Mathematics	10160	M W F 8:30 AM - 9:20 AM 
+Science Center 1314	Leibowitz, Rochelle			ARMC	2018	Textbook
+ 	Permission of Instructor.
+ 	Max Enroll: 30	Seats Taken: 32	Seats Avail: -2	Wait List: 0
+
+MATH-217 B	
+D.	Voting Theory	10161	M W F 11:30 AM - 12:20 PM 
+Science Center 1314	Ratliff, Thomas C.			ARMC	2002	Textbook
+ 	Permission of Instructor.
+ 	Max Enroll: 30	Seats Taken: 15	Seats Avail: 15	Wait List: 0
+
+MATH-236 B	
+B.	Multivariable Calculus	10162	M W F 9:30 AM - 10:20 AM 
+Science Center 1314	Herr, Daniel	QA		ARMC	2045	Textbook
+ 	Permission of Instructor.
+ 	Max Enroll: 30	Seats Taken: 19	Seats Avail: 11	Wait List: 0
+
+MATH-342 B	
+C.	Mathematical Statistics	10163	M W F 10:30 AM - 11:20 AM 
+Science Center 1313	Kahn, Michael J.			ARMC		Textbook
+ 	Permission of Instructor.
+ 	Max Enroll: 999	Seats Taken: 9	Seats Avail: 990	Wait List: 0
+
+MATH-361 B	
+K.	Complex Analysis	10177	M W 2:00 PM - 3:20 PM 
+Science Center 1314	Bloch, William L.			ARMC		Textbook
+ 	Permission of Instructor.
+ 	Max Enroll: 999	Seats Taken: 16	Seats Avail: 983	Wait List: 0
+
+MATH-399 B01	
+J.	Ind Stdy: Mathematical Logic	10509	W 11:00 AM - 11:50 AM 
+Science Center A209	Bloch, William L.			ARMC		Textbook
+ 	Permission of Instructor.
+ 	Max Enroll: 3	Seats Taken: 3	Seats Avail: 0	Wait List: 0
+
+MATH-401 B	
+S.	Seminar	10166	T R 11:00 AM - 12:20 PM 
+Science Center 1314	Sklensky-Ratliff, Janice C.			ARMC		Textbook
+ 	Permission of Instructor.
+ 	Max Enroll: 999	Seats Taken: 16	Seats Avail: 983	Wait List: 0
+
+MATH-500 D01	
+J.	Individual Research	10550	TBA 
+Location info TBA	Ratliff, Thomas C.			ARMC		Textbook
+ 	Permission of Instructor.
+ 	Max Enroll: 1	Seats Taken: 1	Seats Avail: 0	Wait List: 0
+
+MATH-500 D02	
+J.	Individual Research	10559	TBA 
+Location info TBA	DeCoste, Rachelle C.			ARMC		Textbook
+ 	Permission of Instructor.
+ 	Max Enroll: 1	Seats Taken: 1	Seats Avail: 0	Wait List: 0
+
+Transparent Image
+Return to Search Course Catalog & Schedule page
+ 
+
+RELEASE: 8.0
+
+© 2014 Ellucian Company L.P. and its affiliates.

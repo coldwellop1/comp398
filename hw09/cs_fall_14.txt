@@ -1,0 +1,191 @@
+COMP-111 A	
+C
+Foundations of Comp Theory
+10385
+M W F 10:30 AM - 11:20 AM 
+SCB334	
+Gagne, Martin	
+QA		
+ARMC		
+--
+ Permission of Instructor.
+30	
+21	
+9	
+0
+
+COMP-115 A	
+N	
+Robots, Games, & Prob Solving	
+10386	
+T R 11:00 AM - 12:20 PM 
+SC1349	
+Armstrong, Thomas S.	
+QA		
+ARMC	
+2016	
+Permission of Instructor.
+40
+31
+9
+0
+
+COMP-115 L01	
+-
+Robots, Games, & Prob Sol Lab
+10387	
+W 3:30 PM - 5:20 PM 
+SC1349	
+Armstrong, Thomas S.	
+-
+-
+-				
+Permission of Instructor.
+20
+17
+3
+0
+
+COMP-115 L02	
+-
+Robots, Games, & Prob Sol Lab	
+10388	
+T 3:30 PM - 5:20 PM 
+SC1349
+Gagne, Martin		
+-
+-
+-			
+Permission of Instructor.
+ 20
+ 14
+ 6
+ 0
+
+COMP-161 A	
+C
+Web Program, Graphics & Design
+10543
+M W F 10:30 AM - 11:20 AM 
+SC1349
+Gousie, Michael B.
+QA
+ARMC
+2042
+-
+30
+34
+-4
+0
+
+COMP-199 A01	
+J
+Independent Study
+10612
+TBA 
+TBA
+Armstrong, Thomas S.
+-
+ARMC		
+-
+Permission of Instructor.
+1
+1
+0
+0
+
+COMP-215 A	
+D
+Algorithms
+10389
+M W F 11:30 AM - 12:20 PM 
+SCB334
+Gagne, Martin
+-
+ARMC		
+-
+Permission of Instructor.
+30
+23
+7
+0
+
+COMP-215 L	
+-
+Algorithms Lab
+10390
+W 3:30 PM - 5:20 PM 
+SC1315
+Gagne, Martin					
+-
+-
+-
+Permission of Instructor.
+30
+23
+7
+0
+
+COMP-335 A	
+M
+Principles of Programming Lang
+10392
+T R 9:30 AM - 10:50 AM 
+SC1314
+Mason, Rebecca A.
+-
+ARMC		
+-
+Permission of Instructor.
+999
+15
+984
+0
+
+COMP-398 A01	
+O
+Web Application Development
+10484
+T R 2:00 PM - 3:20 PM 
+SC1349
+Armstrong, Thomas S.					
+-
+-
+-
+Permission of Instructor.
+999
+18
+981
+0
+
+COMP-399 A01	
+J
+Independent Study
+10589
+TBA 
+TBA
+Armstrong, Thomas S.
+-
+ARMC
+-
+Permission of Instructor.
+1
+1
+0
+0
+
+COMP-500 C01	
+J
+Individual Research
+10579
+TBA 
+TBA
+Armstrong, Thomas S.
+-
+ARMC		
+-
+Open to Junior and Senior Majors who are candidates for Departmental Honors and by Permission of Instructor.
+1
+1
+0
+0

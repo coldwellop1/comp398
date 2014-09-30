@@ -1,0 +1,105 @@
+WINDOW
+
+HELP | EXIT
+
+Schedule of Classes
+
+ 	
+Transparent Image
+ Information	Click on:
+a subject/number/section in the Course column to view the course description
+an exam code to view the exam date and time. Please note: exam information only available for the current semester plus the one following it.
+an instructor name to view their faculty profile
+a connection number (conx) to view the connection description
+for a Complete List of Foundations, Divisions and Academic Areas, simply click on the Help link above.
+Class Schedule Data for Spring 2014
+ 
+Computer Science
+Course	Exam	Title	CRN	Days/Times 
+Location	Instructor(s)	Found	Div	Area	Conx	View Textbook
+Course Material
+COMP-099 B01	
+J.	Ind Stdy: Programming in Ruby	10609	TBA 
+Location info TBA	LeBlanc, Mark D.					Textbook
+ 	Permission of Instructor (.50 credit).
+ 	Max Enroll: 1	Seats Taken: 0	Seats Avail: 1	Wait List: 0
+
+COMP-115 B	
+S.	Robots, Games, & Prob Solving	10281	T R 11:00 AM - 12:20 PM 
+Science Center 1349	Armstrong, Thomas S.	QA		ARMC	2016	Textbook
+ 	Permission of Instructor.
+ 	Max Enroll: 36	Seats Taken: 36	Seats Avail: 0	Wait List: 0
+
+COMP-115 L	
+Robots, Games, Prob Solv Lab	10282	W 3:30 PM - 5:20 PM 
+Science Center 1349	Armstrong, Thomas S.					Textbook
+ 	Permission of Instructor.
+ 	Max Enroll: 36	Seats Taken: 36	Seats Avail: 0	Wait List: 0
+
+COMP-116 B	
+B.	Data Structures	10283	M W F 9:30 AM - 10:20 AM 
+Science Center 1349	LeBlanc, Mark D.	QA		ARMC	2016	Textbook
+ 	Permission of Instructor.
+ 	Max Enroll: 30	Seats Taken: 31	Seats Avail: -1	Wait List: 0
+
+COMP-116 L	
+Data Structures Lab	10284	W 3:30 PM - 5:20 PM 
+Mars Center-Science/Technology 1141	LeBlanc, Mark D.					Textbook
+ 	Permission of Instructor.
+ 	Max Enroll: 30	Seats Taken: 31	Seats Avail: -1	Wait List: 0
+
+COMP-131 B	
+S.	Computing for Poets	10285	M W 2:00 PM - 3:20 PM 
+Science Center 1349	LeBlanc, Mark D.	QA		ARMC	2056	Textbook
+ 	Permission of Instructor.
+ 	Max Enroll: 36	Seats Taken: 33	Seats Avail: 3	Wait List: 0
+
+COMP-220 B	
+C.	Comp Organiz & Assembly Lang	10286	M W F 10:30 AM - 11:20 AM 
+Science Center 1315	Gousie, Michael B.			ARMC	2022	Textbook
+ 	Permission of Instructor.
+ 	Max Enroll: 30	Seats Taken: 17	Seats Avail: 13	Wait List: 0
+
+COMP-220 L	
+Comp Org & Assembly Lang Lab	10287	T 3:30 PM - 5:20 PM 
+Science Center 1315	Gousie, Michael B.					Textbook
+ 	Permission of Instructor.
+ 	Max Enroll: 30	Seats Taken: 17	Seats Avail: 13	Wait List: 0
+
+COMP-299 B01	
+J.	Ind Stdy: Natural Lang Process	10510	TBA 
+Location info TBA	Armstrong, Thomas S.			ARMC		Textbook
+ 	Permission of Instructor.
+ 	Max Enroll: 13	Seats Taken: 12	Seats Avail: 1	Wait List: 0
+
+COMP-365 B	
+K.	Computer Graphics	10288	M W 2:00 PM - 3:20 PM 
+Science Center 1315	Gousie, Michael B.			ARMC	2312	Textbook
+ 	Permission of Instructor.
+ 	Max Enroll: 999	Seats Taken: 6	Seats Avail: 993	Wait List: 0
+
+COMP-399 B01	
+J.	Independent Study	10597	TBA 
+Location info TBA	Gousie, Michael B.			ARMC		Textbook
+ 	Permission of Instructor.
+ 	Max Enroll: 1	Seats Taken: 1	Seats Avail: 0	Wait List: 0
+
+COMP-401 B	
+S.	Senior Seminar	10290	T R 12:30 PM - 1:50 PM 
+Science Center 1315	Armstrong, Thomas S.			ARMC		Textbook
+ 	Permission of Instructor.
+ 	Max Enroll: 999	Seats Taken: 14	Seats Avail: 985	Wait List: 0
+
+COMP-499 B01	
+J.	Bioinformatics Senior Project	10606	TBA 
+Location info TBA	LeBlanc, Mark D.			ARMC		Textbook
+ 	Permission of Instructor.
+ 	Max Enroll: 1	Seats Taken: 1	Seats Avail: 0	Wait List: 0
+
+Transparent Image
+Return to Search Course Catalog & Schedule page
+ 
+
+RELEASE: 8.0
+
+© 2014 Ellucian Company L.P. and its affiliates.
