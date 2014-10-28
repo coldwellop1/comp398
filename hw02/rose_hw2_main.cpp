@@ -1,7 +1,7 @@
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Emily Rose - Homework #2
 
-Date last modified: September 1, 2014
+Date last modified: September 1, 2014 // October 28, 2014
 
 Summary: This program imports a list of the top 50 television shows in the United States from a 
 			.txt file and provides the user with the option of searching through and viewing the
@@ -26,73 +26,18 @@ OUTPUT: (to console, stdout): Title of the program, prompts for user input to na
 #include <string>
 #include "node.h"
 
-//------------search()-------------
-//PRE: the first Node in the linked list
-//POST: presents the user with a menu of codes that can be used to search 
-//      through the list, accepts 1 code and 1 search term from the user, 
-//		and follows the code to either another function or exits the 
-//		program (0 or unknown)
-//RETURNS: Nothing unless code is '0' or unknown to program. Then a message
-//		is printed to the screen and program exits.
-//-------------
 void search(Node *first_node);
 
-//------------searchRank()-------------
-//PRE: the user elected code 1 in the search() function. Assigned first 
-//		node of linked list and search term from user
-//POST: searches linearly through linked list to find rank requested in 
-//		search term.
-//RETURNS: complete report of the entry that matches the search term or 
-//		error message if term not found.
-//-------------
 void searchRank(Node *first_node, string choice); 
 
-//------------searchNetwork()-------------
-//PRE: the user elected code 2 in the search() function. Assigned first 
-//		node of linked list and search term from user
-//POST: searches linearly through linked list to find network requested 
-//		in search term.
-//RETURNS: complete report of the entry that matches the search term or 
-//		error message if term not found.
-//-------------
 void searchNetwork(Node *first_node, string choice);
 
-//------------searchProgram()-------------
-//PRE: the user elected code 3 in the search() function. Assigned first 
-//		node of linked list and search term from user
-//POST: searches linearly through linked list to find program requested
-//		in search term.
-//RETURNS: complete report of the entry that matches the search term or 
-//		error message if term not found.
-//-------------
 void searchProgram(Node *first_node, string choice);
 
-//------------searchAirings()-------------
-//PRE: the user elected code 4 in the search() function. Assigned first 
-//		node of linked list and search term from user
-//POST: searches linearly through linked list to find airings count 
-//		requested in search term.
-//RETURNS: complete report of the entry that matches the search term 
-//		or error message if term not found.
-//-------------
 void searchAirings(Node *first_node, string choice);
 
-//------------searchViewers()-------------
-//PRE: the user elected code 5 in the search() function. Assigned first 
-//		node of linked list and search term from user
-//POST: searches linearly through linked list to find viewership requested 
-//		in search term.
-//RETURNS: complete report of the entry that matches the search term or 
-//		error message if term not found.
-//-------------
 void searchViewers(Node *first_node, string choice);
 
-//------------searchNetwork()-------------
-//PRE: the user either elected to print the entire list to stdout OR entered 
-//		an unknown term
-//POST: entire linked list is printed to the console.  
-//RETURNS: none
-//-------------
 void printList(Node *first_node);
 
 int kMax = 50;
@@ -173,6 +118,18 @@ void main()
 	system("PAUSE");
 }
 
+//------------search()-------------
+//SUMMARY: Function prompts the user to choose which category of tv show 
+//		properties they would like to search for, and then moves
+//		to that search function.
+//PRE: the first Node in the linked list
+//POST: presents the user with a menu of codes that can be used to search 
+//      through the list, accepts 1 code and 1 search term from the user, 
+//		and follows the code to either another function or exits the 
+//		program (0 or unknown)
+//RETURNS: Nothing unless code is '0' or unknown to program. Then a message
+//		is printed to the screen and program exits.
+//-------------
 void search(Node *first_node)
 {
 	cout << "\nSearch Codes: " << "\n" << "Ranking: 1" << "\n";
@@ -246,6 +203,17 @@ void search(Node *first_node)
 	}
 }
 
+//------------searchRank()-------------
+//SUMMARY: Function searches through a linked list of nodes for a 
+//              requested ranking of a tv show and tells the user 
+//              which tv show the ranking corresponds to (if any.)
+//PRE: the user elected code 1 in the search() function. Assigned first 
+//		node of linked list and search term from user
+//POST: searches linearly through linked list to find rank requested in 
+//		search term.
+//RETURNS: complete report of the entry that matches the search term or 
+//		error message if term not found.
+//-------------
 void searchRank(Node *first_node, string choice)
 {
 	int count = 0;
@@ -275,6 +243,18 @@ void searchRank(Node *first_node, string choice)
 	}
 		
 }
+
+//------------searchNetwork()-------------
+//SUMMARY: Function searches through a linked list of nodes for a 
+//              requested network and tells the user what the first
+//		tv show listed for the network is (if any.)
+//PRE: the user elected code 2 in the search() function. Assigned first 
+//		node of linked list and search term from user
+//POST: searches linearly through linked list to find network requested 
+//		in search term.
+//RETURNS: complete report of the entry that matches the search term or 
+//		error message if term not found.
+//-------------
 void searchNetwork(Node *first_node, string choice)
 {
 	int count = 0;
@@ -304,6 +284,18 @@ void searchNetwork(Node *first_node, string choice)
 	}
 
 }
+
+//------------searchProgram()-------------
+//SUMMARY: Function searches through a linked list of nodes for a 
+//              requested tv show title and tells the user the other
+//		properties of the tv show if it is present in the list.
+//PRE: the user elected code 3 in the search() function. Assigned first 
+//		node of linked list and search term from user
+//POST: searches linearly through linked list to find program requested
+//		in search term.
+//RETURNS: complete report of the entry that matches the search term or 
+//		error message if term not found.
+//-------------
 void searchProgram(Node *first_node, string choice)
 {
 	int count = 0;
@@ -333,6 +325,18 @@ void searchProgram(Node *first_node, string choice)
 	}
 
 }
+
+//------------searchAirings()-------------
+//SUMMARY: Function searches through a linked list of nodes for a 
+//              requested number of airings and tells the user the other
+//		properties of the tv show if it is present in the list.
+//PRE: the user elected code 4 in the search() function. Assigned first 
+//		node of linked list and search term from user
+//POST: searches linearly through linked list to find airings count 
+//		requested in search term.
+//RETURNS: complete report of the entry that matches the search term 
+//		or error message if term not found.
+//-------------
 void searchAirings(Node *first_node, string choice)
 {
 	int count = 0;
@@ -360,6 +364,18 @@ void searchAirings(Node *first_node, string choice)
 		search(first_node);
 	}
 }
+
+//------------searchViewers()-------------
+//SUMMARY: Function searches through a linked list of nodes for a 
+//              requested number of viewers and tells the user the other
+//		properties of the tv show if it is present in the list.
+//PRE: the user elected code 5 in the search() function. Assigned first 
+//		node of linked list and search term from user
+//POST: searches linearly through linked list to find viewership requested 
+//		in search term.
+//RETURNS: complete report of the entry that matches the search term or 
+//		error message if term not found.
+//-------------
 void searchViewers(Node *first_node, string choice)
 {
 	int count = 0;
@@ -389,6 +405,14 @@ void searchViewers(Node *first_node, string choice)
 	}
 
 }
+
+//------------printList()-------------
+//SUMMARY: prints entire database of tv shows to the console.
+//PRE: the user either elected to print the entire list to stdout OR entered 
+//		an unknown term
+//POST: entire linked list is printed to the console.  
+//RETURNS: none
+//-------------
 void printList(Node *first_node)
 {
 	int count = 0;
