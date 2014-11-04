@@ -12,7 +12,7 @@ Ponies.connect("mongodb://erose1:standard@ds051160.mongolab.com:51160/comp398_hw
   var Cnat = ["C","D","E","F","G","A","B"];
   var Csharp = ["C#","D#","E#","F#","G#","A#","B#"];
   var Dnat = ["D","E","F#","G","A","B","C#"];
-  var Dsharp = ["","","","","","",""];
+  var Eflat = ["Eb","F","G","Ab","Bb","C","D"];
   var Enat = ["E","F#","G#","A","B","C#","D#"];
   var Fnat = ["F","G","A","Bb","C","D","E"];
   var Fsharp = ["F#","G#","A#","B","C#","D#","E#"];
