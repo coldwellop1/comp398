@@ -16,6 +16,13 @@ Ponies.connect("mongodb://erose1:standard@ds051160.mongolab.com:51160/comp398_hw
   var Enat = ["E","F#","G#","A","B","C#","D#"];
   var Fnat = ["F","G","A","Bb","C","D","E"];
   var Fsharp = ["F#","G#","A#","B","C#","D#","E#"];
+  
+  
+  //Find and delete previous collection
+  if (collection.find(function(err, result) {}) !== null) {
+		collection.remove(function(err, result) {});
+		console.dir("Previous doc collection removed");
+	}
 
 /*  var collection = db.collection('test');
   var docs = [{mykey:1}, {mykey:2}, {mykey:3}];
