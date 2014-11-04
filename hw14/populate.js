@@ -32,3 +32,5 @@ Ponies.connect("mongodb://erose1:standard@ds051160.mongolab.com:51160/comp398_hw
   };
   
   console.log("Collection Populated!");
+  
+};
