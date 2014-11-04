@@ -16,9 +16,14 @@ Ponies.connect("mongodb://erose1:standard@ds051160.mongolab.com:51160/comp398_hw
   var Fnat = "F G A Bb C D E";
   var Fsharp = "F# G# A# B C# D# E#";
 
-function donothing() {
-	var timeWaster = [123, 234, 346234, "Not sure if this'll actually help, but why not?!"];
-}
+function pausecomp(millis) 
+{
+var date = new Date();
+var curDate = null;
+
+do { curDate = new Date(); } 
+while(curDate-date < millis);
+} 
   
   var MajScales = [Anat, Bflat, Bnat, Cnat, Csharp, Dnat, Eflat, Enat, Fnat, Fsharp];
   
@@ -30,10 +35,13 @@ function donothing() {
 		console.dir("Previous doc collection removed");
 	}
 	
-  for (var i = 0; i < 250; i++){
+  for (var i = 0; i < 125; i++){
+  pausecomp(1000);
 	collection.insert(MajScales, function(err, result){});
-	setTimeout(donothing(), 1000);
+	pausecomp(1000);
+  collection.insert(MajScales, function(err, result){});
   }
+  //collection.insert(MajScales, function(err, result){});
   
   console.log("Collection Populated!");
   
