@@ -17,7 +17,7 @@ Ponies.connect("mongodb://erose1:standard@ds051160.mongolab.com:51160/comp398_hw
   var Fsharp = "F# G# A# B C# D# E#";
 
 function donothing() {
-
+	var timeWaster = [123, 234, 346234, "Not sure if this'll actually help, but why not?!"];
 }
   
   var MajScales = [Anat, Bflat, Bnat, Cnat, Csharp, Dnat, Eflat, Enat, Fnat, Fsharp];
@@ -32,7 +32,7 @@ function donothing() {
 	
   for (var i = 0; i < 250; i++){
 	collection.insert(MajScales, function(err, result){});
-	setTimeout(donothing(), 100);
+	setTimeout(donothing(), 1000);
   }
   
   console.log("Collection Populated!");
