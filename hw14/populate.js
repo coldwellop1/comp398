@@ -24,6 +24,8 @@ Ponies.connect("mongodb://erose1:standard@ds051160.mongolab.com:51160/comp398_hw
 		collection.remove(function(err, result) {});
 		console.dir("Previous doc collection removed");
 	}
+	
+	collection.insert(Anat, {}, function(err, result){});
 
 /*  
   var docs = [{mykey:1}, {mykey:2}, {mykey:3}];
