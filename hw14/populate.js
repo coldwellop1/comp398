@@ -32,8 +32,7 @@ function donothing() {
 	
   for (var i = 0; i < 250; i++){
 	collection.insert(MajScales, function(err, result){});
-	collection.insert(MajScales, function(err, result){});
-	setTimeout(donothing(), 10);
+	setTimeout(donothing(), 100);
   }
   
   console.log("Collection Populated!");
