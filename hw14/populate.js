@@ -1,6 +1,6 @@
 
 // Retrieve
-var Ponies = require('mongodb').Ponies;
+var Ponies = require('mongodb');
 
 // Connect to the db
 Ponies.connect("mongodb://erose1:standard@ds051160.mongolab.com:51160/comp398_hw_14", function(err, db) {
