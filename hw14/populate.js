@@ -1,6 +1,6 @@
 
 // Retrieve
-var Ponies = require('mongodb').MongoClient;
+var Ponies = require('mongodb').Ponies;
 
 // Connect to the db
 Ponies.connect("mongodb://erose1:standard@ds051160.mongolab.com:51160/comp398_hw_14", function(err, db) {
@@ -17,6 +17,7 @@ Ponies.connect("mongodb://erose1:standard@ds051160.mongolab.com:51160/comp398_hw
   var Fnat = ["F","G","A","Bb","C","D","E"];
   var Fsharp = ["F#","G#","A#","B","C#","D#","E#"];
   
+  var collection = db.collection('scales');
   
   //Find and delete previous collection
   if (collection.find(function(err, result) {}) !== null) {
@@ -24,7 +25,7 @@ Ponies.connect("mongodb://erose1:standard@ds051160.mongolab.com:51160/comp398_hw
 		console.dir("Previous doc collection removed");
 	}
 
-/*  var collection = db.collection('test');
+/*  
   var docs = [{mykey:1}, {mykey:2}, {mykey:3}];
 
   collection.insert(docs, {w:1}, function(err, result) {
