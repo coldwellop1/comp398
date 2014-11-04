@@ -27,8 +27,9 @@ Ponies.connect("mongodb://erose1:standard@ds051160.mongolab.com:51160/comp398_hw
 		console.dir("Previous doc collection removed");
 	}
 	
+  for (var i = 0; i < 250; i++){
 	collection.insert(MajScales, {}, function(err, result){});
-
+  };
 /*  
   var docs = [{mykey:1}, {mykey:2}, {mykey:3}];
 
