@@ -28,7 +28,7 @@ Ponies.connect("mongodb://erose1:standard@ds051160.mongolab.com:51160/comp398_hw
 	}
 	
   for (var i = 0; i < 250; i++){
-	collection.insert(MajScales, {w:1}, function(err, result){});
+	collection.insert(MajScales, {w:10}, function(err, result){});
   }
   
   //console.log("Collection Populated!");
