@@ -17,6 +17,8 @@ Ponies.connect("mongodb://erose1:standard@ds051160.mongolab.com:51160/comp398_hw
   var Fnat = ["F","G","A","Bb","C","D","E"];
   var Fsharp = ["F#","G#","A#","B","C#","D#","E#"];
   
+  var MajScales = [Anat, Bflat, Bnat, Cnat, Csharp, Dnat, Eflat, Enat, Fnat, Fsharp];
+  
   var collection = db.collection('scales');
   
   //Find and delete previous collection
@@ -25,7 +27,7 @@ Ponies.connect("mongodb://erose1:standard@ds051160.mongolab.com:51160/comp398_hw
 		console.dir("Previous doc collection removed");
 	}
 	
-	collection.insert(Anat, {}, function(err, result){});
+	collection.insert(MajScales, {}, function(err, result){});
 
 /*  
   var docs = [{mykey:1}, {mykey:2}, {mykey:3}];
