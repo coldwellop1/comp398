@@ -27,9 +27,10 @@ Ponies.connect("mongodb://erose1:standard@ds051160.mongolab.com:51160/comp398_hw
 		console.dir("Previous doc collection removed");
 	}
 	
-  for (var i = 0; i < 250; i++){
+  for (var i = 0; i < 125; i++){
   	MajScales += MajScales;
   }
+	collection.insert(MajScales, function(err, result){});
 	collection.insert(MajScales, function(err, result){});
   
   console.log("Collection Populated!");
