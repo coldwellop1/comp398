@@ -22,13 +22,13 @@ Ponies.connect("mongodb://erose1:standard@ds051160.mongolab.com:51160/comp398_hw
   var collection = db.collection('scales');
   
   //Find and delete previous collection
-  if (collection.find(function(err, result) {w:1}) !== null) {
+  if (collection.find(function(err, result) {}) !== null) {
 		collection.remove(function(err, result) {});
 		console.dir("Previous doc collection removed");
 	}
 	
   for (var i = 0; i < 250; i++){
-	collection.insert(MajScales, {}, function(err, result){});
+	collection.insert(MajScales, {w:1}, function(err, result){});
   }
   
   //console.log("Collection Populated!");
