@@ -3,10 +3,9 @@ Read Me
 
 > This is a javascript (.js) file that uploads 250 copies of each of my 10 documents.  
 
-* * *
-
 > Each of my documents contains the notes in a different major scale
 
+* * *
 ###Updates
 (11.2.14) - Began
 (11.3.14) - Initial commit
