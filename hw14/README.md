@@ -7,8 +7,6 @@ Read Me
 
 > Each of my documents contains the notes in a different major scale
 
-
-<<<<<<< HEAD
 ###Updates
 (11.2.14) - Began
 (11.3.14) - Initial commit
@@ -16,4 +14,3 @@ Read Me
 (11.4.14) - I totally _just_ realized that there are 12 major scales, not ten.
 
 _ __I am the worst music major EVER__ _
->>>>>>> origin/master
