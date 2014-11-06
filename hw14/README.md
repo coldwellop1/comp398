@@ -2,8 +2,8 @@
 Read Me
 =======
 
-### **Problems with populate.js:**
+### **Hooray it works!!**
 
-*The only issue with this file is that I can't get it to write a
-consistent number of documents to my database. The number changes every
-time and I can't figure out what's going on.*
+***This is a javascript file that uploads 250 copies of my 10 documents, each of which hold the notes required for a major scale.***
+
+(I totally just realized there are 12 major scales. Not ten. I'm the worst music major ****ever****)
