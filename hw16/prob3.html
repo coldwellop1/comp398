@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>  
+<meta charset="utf-8" />
+<title>Exam Problem 3</title>
+<style type="text/css">
+table{
+	border: 2px solid black;
+	table-layout: fixed;
+	width: 200px;
+    background-color: #E6F7F7;
+}
+th, td{
+	border: 1px solid black;
+	width: 98px;
+	text-align: center;
+	font-weight: bolder;
+}
+tr:nth-child(even){ background-color: #E8C3E8;}
+tr:nth-child(odd){ background-color: #00B2B2;}
+  </style>
+</head>
+<body>
+
+    <script type="text/javascript">
+
+    var n = prompt("Please enter a number:");
+	var nextVal;
+    document.write('<table border="1"');
+	document.write('<thead> <tr> <th> n </th> <th> lazy caterer(n) </th> </tr> </thead>');
+    for (i=0; i < n; i++) {
+		nextVal = ((i*(i+1))/2 + 1);
+        document.write('<tr><td>' + i + "</td><td>" + nextVal + "</td></tr>");
+    };
+    document.write('</table>');
+
+
+    </script>
+
+</body>
+</html>

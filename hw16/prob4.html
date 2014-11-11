@@ -1,0 +1,343 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+  <meta charset="utf-8" />
+  <title>Prob4</title>
+
+  <style type="text/css">
+  table{
+    width: 100%;
+    text-align: center;
+    border: 2px solid purple;
+    border-collapse: collapse;
+    text-wrap: normal;
+  }
+  tr{
+    border: 1px solid purple;
+    border-collapse: collapse;
+  }
+  text{
+    font-family: Georgia, serif;
+    font-size: 24px;
+  }
+  th{
+    font-size: 28px;
+  }
+  </style>
+
+ 
+</head>
+<body>
+<!-- Page Header -->
+<svg width="100%" height="100">
+  <text x="50%" y="50" style="text-anchor: middle">
+    Your 10 Day Forecast 
+  </text>
+</svg>
+
+<!-- Weather Table -->
+<table>
+  <tr> 
+    <th colspan="3">Day</th>
+    <th>Conditions</th>
+    <th colspan="2">High/Low (&deg;F)</th>
+    <th colspan="2">High/Low (&deg;C)</th>
+    <th>Winds</th>
+  </tr>
+  <tr>
+    <td rowspan="2"><text>Monday</text></td><!-- Day -->
+    <td>Day</td><!-- Time -->
+    <td>
+        <svg width="50" height="50">
+          <image xlink:href="http://icons.wxug.com/i/c/k/clear.gif" width="50" height="50"/>
+        </svg>
+    </td><!-- Weather Icon -->
+    <td>Sunny</td><!-- Summary -->
+    <td>59&deg;F</td><!-- F: High -->
+    <td></td><!-- F: Low -->
+    <td>15&deg;C</td><!-- C: High -->
+    <td></td><!-- C: Low -->
+    <td>WNW @ 10 to 20 mph</td><!-- Winds -->
+  </tr>
+  <tr>
+    <td>Night</td><!-- Time -->
+    <td>
+        <svg width="50" height="50">
+          <image xlink:href="http://icons.wxug.com/i/c/k/nt_clear.gif" width="50" height="50"/>
+        </svg>
+    </td><!-- Weather Icon -->
+    <td>Clear skies</td><!-- Summary -->
+    <td></td><!-- F: High -->
+    <td>40&deg;F</td><!-- F: Low -->
+    <td></td><!-- C: High -->
+    <td>4&deg;C</td><!-- C: Low -->
+    <td>W @ 5 to 10 mph</td><!-- Winds -->
+  </tr>
+  <tr>
+    <td rowspan="2"><text>Tuesday</text></td><!-- Day -->
+    <td>Day</td><!-- Time -->
+    <td>
+        <svg width="50" height="50">
+          <image xlink:href="http://icons.wxug.com/i/c/k/partlycloudy.gif" width="50" height="50"/>
+        </svg>
+    </td><!-- Weather Icon -->
+    <td>Partly cloudy skies</td><!-- Summary -->
+    <td>69&deg;F</td><!-- F: High -->
+    <td></td><!-- F: Low -->
+    <td>21&deg;C</td><!-- C: High -->
+    <td></td><!-- C: Low -->
+    <td>SSW @ 10 to 15 mph</td><!-- Winds -->
+  </tr>
+  <tr>
+    <td>Night</td><!-- Time -->
+    <td>
+        <svg width="50" height="50">
+          <image xlink:href="http://icons.wxug.com/i/c/k/nt_mostlycloudy.gif" width="50" height="50"/>
+        </svg>
+    </td><!-- Weather Icon -->
+    <td>Mostly cloudy skies</td><!-- Summary -->
+    <td></td><!-- F: High -->
+    <td>55&deg;F</td><!-- F: Low -->
+    <td></td><!-- C: High -->
+    <td>13&deg;C</td><!-- C: Low -->
+    <td>SSW @ 5 to 10 mph</td><!-- Winds -->
+  </tr>
+  <tr>
+    <td rowspan="2"><text>Wednesday</text></td><!-- Day -->
+    <td>Day</td><!-- Time -->
+    <td>
+        <svg width="50" height="50">
+          <image xlink:href="http://icons.wxug.com/i/c/k/mostlycloudy.gif" width="50" height="50"/>
+        </svg>
+    </td><!-- Weather Icon -->
+    <td>Mostly cloudy skies</td><!-- Summary -->
+    <td>70&deg;F</td><!-- F: High -->
+    <td></td><!-- F: Low -->
+    <td>21&deg;C</td><!-- C: High -->
+    <td></td><!-- C: Low -->
+    <td>SW @ 10 to 15 mph</td><!-- Winds -->
+  </tr>
+  <tr>
+    <td>Night</td><!-- Time -->
+    <td>
+        <svg width="50" height="50">
+          <image xlink:href="http://icons.wxug.com/i/c/k/nt_chancerain.gif" width="50" height="50"/>
+        </svg>
+    </td><!-- Weather Icon -->
+    <td>50% chance of rain showers early with overcast skies late</td><!-- Summary -->
+    <td></td><!-- F: High -->
+    <td>44&deg;F</td><!-- F: Low -->
+    <td></td><!-- C: High -->
+    <td>7&deg;C</td><!-- C: Low -->
+    <td>WNW at 5 to 10 mph</td><!-- Winds -->
+  </tr>
+  <tr>
+    <td rowspan="2"><text>Thursday</text></td><!-- Day -->
+    <td>Day</td><!-- Time -->
+    <td>
+        <svg width="50" height="50">
+          <image xlink:href="http://icons.wxug.com/i/c/k/partlycloudy.gif" width="50" height="50"/>
+        </svg>
+    </td><!-- Weather Icon -->
+    <td>Partly cloudy</td><!-- Summary -->
+    <td>57&deg;F</td><!-- F: High -->
+    <td></td><!-- F: Low -->
+    <td>14&deg;C</td><!-- C: High -->
+    <td></td><!-- C: Low -->
+    <td>NW at 5 to 10 mph</td><!-- Winds -->
+  </tr>
+  <tr>
+    <td>Night</td><!-- Time -->
+    <td>
+        <svg width="50" height="50">
+          <image xlink:href="http://icons.wxug.com/i/c/k/nt_partlycloudy.gif" width="50" height="50"/>
+        </svg>
+    </td><!-- Weather Icon -->
+    <td>Some clouds early will give way to generally clear conditions overnight</td><!-- Summary -->
+    <td></td><!-- F: High -->
+    <td>37&deg;F</td><!-- F: Low -->
+    <td></td><!-- C: High -->
+    <td>3&deg;C</td><!-- C: Low -->
+    <td>light and variable</td><!-- Winds -->
+  </tr>
+  <tr>
+    <td rowspan="2"><text>Friday</text></td><!-- Day -->
+    <td>Day</td><!-- Time -->
+    <td>
+        <svg width="50" height="50">
+          <image xlink:href="http://icons.wxug.com/i/c/k/clear.gif" width="50" height="50"/>
+        </svg>
+    </td><!-- Weather Icon -->
+    <td>Sunny along with a few clouds</td><!-- Summary -->
+    <td>57&deg;F</td><!-- F: High -->
+    <td></td><!-- F: Low -->
+    <td>14&deg;C</td><!-- C: High -->
+    <td></td><!-- C: Low -->
+    <td>WNW @ 5 to 10 mph</td><!-- Winds -->
+  </tr>
+  <tr>
+    <td>Night</td><!-- Time -->
+    <td>
+        <svg width="50" height="50">
+          <image xlink:href="http://icons.wxug.com/i/c/k/nt_partlycloudy.gif" width="50" height="50"/>
+        </svg>
+    </td><!-- Weather Icon -->
+    <td>Partly cloudy</td><!-- Summary -->
+    <td></td><!-- F: High -->
+    <td>39&deg;F</td><!-- F: Low -->
+    <td></td><!-- C: High -->
+    <td>4&deg;C</td><!-- C: Low -->
+    <td>W @ 5 to 10 mph</td><!-- Winds -->
+  </tr>
+  <tr>
+    <td rowspan="2"><text>Saturday</text></td><!-- Day -->
+    <td>Day</td><!-- Time -->
+    <td>
+        <svg width="50" height="50">
+          <image xlink:href="http://icons.wxug.com/i/c/k/chancerain.gif" width="50" height="50"/>
+        </svg>
+    </td><!-- Weather Icon -->
+    <td>Light rain early. A mix of sun and clouds in the afternoon.</td><!-- Summary -->
+    <td>42&deg;F</td><!-- F: High -->
+    <td></td><!-- F: Low -->
+    <td>6&deg;C</td><!-- C: High -->
+    <td></td><!-- C: Low -->
+    <td>WNW @ 15 to 25 mph</td><!-- Winds -->
+  </tr>
+  <tr>
+    <td>Night</td><!-- Time -->
+    <td>
+        <svg width="50" height="50">
+          <image xlink:href="http://icons.wxug.com/i/c/k/nt_snow.gif" width="50" height="50"/>
+        </svg>
+    </td><!-- Weather Icon -->
+    <td>Mostly cloudy. 30% chance of rain and snow showers in the evening. A few snow showers late.</td><!-- Summary -->
+    <td></td><!-- F: High -->
+    <td>29&deg;F</td><!-- F: Low -->
+    <td></td><!-- C: High -->
+    <td>-2&deg;C</td><!-- C: Low -->
+    <td>NW @ 15 to 25 mph</td><!-- Winds -->
+  </tr>
+  <tr>
+    <td rowspan="2"><text>Sunday</text></td><!-- Day -->
+    <td>Day</td><!-- Time -->
+    <td>
+        <svg width="50" height="50">
+          <image xlink:href="http://icons.wxug.com/i/c/k/clear.gif" width="50" height="50"/>
+        </svg>
+    </td><!-- Weather Icon -->
+    <td>A mainly sunny sky.</td><!-- Summary -->
+    <td>45&deg;F</td><!-- F: High -->
+    <td></td><!-- F: Low -->
+    <td>7&deg;C</td><!-- C: High -->
+    <td></td><!-- C: Low -->
+    <td>NW @ 15 to 25 mph</td><!-- Winds -->
+  </tr>
+  <tr>
+    <td>Night</td><!-- Time -->
+    <td>
+        <svg width="50" height="50">
+          <image xlink:href="http://icons.wxug.com/i/c/k/nt_clear.gif" width="50" height="50"/>
+        </svg>
+    </td><!-- Weather Icon -->
+    <td>Clear skies.</td><!-- Summary -->
+    <td></td><!-- F: High -->
+    <td>30&deg;F</td><!-- F: Low -->
+    <td></td><!-- C: High -->
+    <td>-1&deg;C</td><!-- C: Low -->
+    <td>W @ 5 to 10 mph</td><!-- Winds -->
+  </tr>
+  <tr>
+    <td rowspan="2"><text>Monday</text></td><!-- Day -->
+    <td>Day</td><!-- Time -->
+    <td>
+        <svg width="50" height="50">
+          <image xlink:href="http://icons.wxug.com/i/c/k/clear.gif" width="50" height="50"/>
+        </svg>
+    </td><!-- Weather Icon -->
+    <td>A mainly sunny sky.</td><!-- Summary -->
+    <td>52&deg;F</td><!-- F: High -->
+    <td></td><!-- F: Low -->
+    <td>11&deg;C</td><!-- C: High -->
+    <td></td><!-- C: Low -->
+    <td>WSW @ 10 to 20 mph</td><!-- Winds -->
+  </tr>
+  <tr>
+    <td>Night</td><!-- Time -->
+    <td>
+        <svg width="50" height="50">
+          <image xlink:href="http://icons.wxug.com/i/c/k/nt_clear.gif" width="50" height="50"/>
+        </svg>
+    </td><!-- Weather Icon -->
+    <td>A few clouds from time to time.</td><!-- Summary -->
+    <td></td><!-- F: High -->
+    <td>37&deg;F</td><!-- F: Low -->
+    <td></td><!-- C: High -->
+    <td>3&deg;C</td><!-- C: Low -->
+    <td>WSW @ 10 to 15 mph</td><!-- Winds -->
+  </tr>
+  <tr>
+    <td rowspan="2"><text>Tuesday</text></td><!-- Day -->
+    <td>Day</td><!-- Time -->
+    <td>
+        <svg width="50" height="50">
+          <image xlink:href="http://icons.wxug.com/i/c/k/partlycloudy.gif" width="50" height="50"/>
+        </svg>
+    </td><!-- Weather Icon -->
+    <td>Partly cloudy skies.</td><!-- Summary -->
+    <td>58&deg;F</td><!-- F: High -->
+    <td></td><!-- F: Low -->
+    <td>15&deg;C</td><!-- C: High -->
+    <td></td><!-- C: Low -->
+    <td>WSW @ 10 to 15 mph</td><!-- Winds -->
+  </tr>
+  <tr>
+    <td>Night</td><!-- Time -->
+    <td>
+        <svg width="50" height="50">
+          <image xlink:href="http://icons.wxug.com/i/c/k/nt_mostlycloudy.gif" width="50" height="50"/>
+        </svg>
+    </td><!-- Weather Icon -->
+    <td>Partly cloudy skies during the evening will give way to cloudy skies overnight.</td><!-- Summary -->
+    <td></td><!-- F: High -->
+    <td>45&deg;F</td><!-- F: Low -->
+    <td></td><!-- C: High -->
+    <td>7&deg;C</td><!-- C: Low -->
+    <td>SW @ 5 to 10 mph</td><!-- Winds -->
+  </tr>
+  <tr>
+    <td rowspan="2"><text>Wednesday</text></td><!-- Day -->
+    <td>Day</td><!-- Time -->
+    <td>
+        <svg width="50" height="50">
+          <image xlink:href="http://icons.wxug.com/i/c/k/chancerain.gif" width="50" height="50"/>
+        </svg>
+    </td><!-- Weather Icon -->
+    <td>Cloudy in the morning, then off and on rain showers during the afternoon hours.</td><!-- Summary -->
+    <td>59&deg;F</td><!-- F: High -->
+    <td></td><!-- F: Low -->
+    <td>15&deg;C</td><!-- C: High -->
+    <td></td><!-- C: Low -->
+    <td>SW @ 10 to 15 mph</td><!-- Winds -->
+  </tr>
+  <tr>
+    <td>Night</td><!-- Time -->
+    <td>
+        <svg width="50" height="50">
+          <image xlink:href="http://icons.wxug.com/i/c/k/nt_rain.gif" width="50" height="50"/>
+        </svg>
+    </td><!-- Weather Icon -->
+    <td>60% chance of rain"</td><!-- Summary -->
+    <td></td><!-- F: High -->
+    <td>46&deg;F</td><!-- F: Low -->
+    <td></td><!-- C: High -->
+    <td>8&deg;C</td><!-- C: Low -->
+    <td>SW @ 5 to 10 mph</td><!-- Winds -->
+  </tr>
+
+
+
+</table>
+</body>
+</html>
