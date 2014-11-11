@@ -1,3 +1,4 @@
 ###Homework 17
 ***
-#####Content:
+#####Project 2 Proposal: 
+_(Julia, Alex, and Emily)_
