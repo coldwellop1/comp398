@@ -23,7 +23,7 @@ Revisit your examination submission folder and the examination folder in the cou
 
 
 #####`Problem 3`
-* __Not exactly the zebra background __
+* __Not exactly the zebra background__
      * Apparently that wasn't amusing...
      * Removed the background image I used before and used the nth children to zebra stripe the table. 
      * I didn't want white in my table at all, so I colored the border in the table css code, and then wanted each of the two cell colors to be different than that, so I used nth even and nth odd to color them separately. 
