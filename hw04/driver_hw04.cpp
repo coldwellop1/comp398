@@ -16,7 +16,8 @@ void main()
 	cin >> filePathway;
 	cout << newLine;
 
-	ifstream File(filePathway);
+	ifstream File
+	File.open(filePathway, in);
 	if (File.is_open())
 	{
 		string code = "<html>"; // variable will hold the html code that we convert. Begins by just holding <html>.

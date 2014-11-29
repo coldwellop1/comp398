@@ -40,7 +40,7 @@ is any line that looks like a blank line — a line containing
 nothing but spaces or tabs is considered blank.) Normal 
 paragraphs should not be indented with spaces or tabs.*/
 string paragraph(string lastLine, string currentLine, string nextLine){
-	if ((isNewPar(lastLine, currentLine) == true) && (currentLine.front() != '>'))
+	if ((isNewPar(lastLine, currentLine) == true) && (currentLine[0] != '>'))
 		currentLine = "<p>" + currentLine;
 	if (endOfPar(currentLine, nextLine) == true)
 		currentLine = currentLine + "</p>";
@@ -124,9 +124,9 @@ string header(string currentLine, string nextLine){
 													</blockquote>
 */
 string blockQuote(string lastLine, string currentLine, string nextLine){
-	if ((lastLine.find("<blockquote>\n    <p>") == -1) && (currentLine.front() == '>'))
+	if ((lastLine.find("<blockquote>\n    <p>") == -1) && (currentLine[0] == '>'))
 		currentLine = "<blockquote>\n    <p>" + currentLine;
-	if ((nextLine.front() != '>') && (currentLine.front() == '>'))
+	if ((nextLine[0] != '>') && (currentLine[0] == '>'))
 		currentLine = currentLine + "\n<blockquote>";
 	return currentLine;
 }
@@ -198,23 +198,13 @@ string emphasis(string currentLine){
 - Gum.
 	Popcorn.
 */
-string unorderedList(string lastLine, string currentLine, string nextLine, string followingLine){
-	char ast = '*';
-	char plus = '+';
-	char hyph = '-';
-	currentLine = checkIfUnordered(lastLine, currentLine, nextLine, followingLine, ast);
-	currentLine = checkIfUnordered(lastLine, currentLine, nextLine, followingLine, plus);
-	currentLine = checkIfUnordered(lastLine, currentLine, nextLine, followingLine, hyph);
-
-	return currentLine;
-}
 string checkIfUnordered(string lastLine, string currentLine, string nextLine, string followingLine, char symbol){
 
-	if (currentLine.front() == symbol){
-		if ((endOfPar(currentLine, nextLine) == true) && (followingLine.front() != ' ') && (followingLine.front() != '\t'))
+	if (currentLine[0] == symbol){
+		if ((endOfPar(currentLine, nextLine) == true) && (followingLine[0] != ' ') && (followingLine[0] != '\t'))
 			currentLine = "<li>" + currentLine + "</li> \n </ul>";
 		else{
-			if ((nextLine.front() != symbol) && (followingLine.front() == ' ') || (followingLine.front() == '\t')){
+			if ((nextLine[0] != symbol) && (followingLine[0] == ' ') || (followingLine[0] == '\t')){
 				currentLine.replace(0, 1, "<li> <p>");
 				currentLine = currentLine + "</p>";
 				followingLine.replace(0, 4, "<p>");
@@ -226,6 +216,16 @@ string checkIfUnordered(string lastLine, string currentLine, string nextLine, st
 			currentLine = "<ul> \n" + currentLine;
 		}
 	}
+	return currentLine;
+}
+string unorderedList(string lastLine, string currentLine, string nextLine, string followingLine){
+	char ast = '*';
+	char plus = '+';
+	char hyph = '-';
+	currentLine = checkIfUnordered(lastLine, currentLine, nextLine, followingLine, ast);
+	currentLine = checkIfUnordered(lastLine, currentLine, nextLine, followingLine, plus);
+	currentLine = checkIfUnordered(lastLine, currentLine, nextLine, followingLine, hyph);
+
 	return currentLine;
 }
 
@@ -246,11 +246,11 @@ string orderedList(string lastLine, string currentLine, string nextLine, string 
 
 string checkIfOrdered(string lastLine, string currentLine, string nextLine, string followingLine, char symbol){
 
-	if (isdigit(currentLine.front()) && (currentLine.find_first_of('.') == 1)){
-		if ((endOfPar(currentLine, nextLine) == true) && (followingLine.front() != ' ') && (followingLine.front() != '\t'))
+	if (isdigit(currentLine[0]) && (currentLine.find_first_of('.') == 1)){
+		if ((endOfPar(currentLine, nextLine) == true) && (followingLine[0] != ' ') && (followingLine[0] != '\t'))
 			currentLine = "<li>" + currentLine + "</li> \n </ol>";
 		else{
-			if ((nextLine.front() != symbol) && (followingLine.front() == ' ') || (followingLine.front() == '\t')){
+			if ((nextLine[0] != symbol) && (followingLine[0] == ' ') || (followingLine[0] == '\t')){
 				currentLine.replace(0, 1, "<li> <p>");
 				currentLine = currentLine + "</p>";
 				followingLine.replace(0, 4, "<p>");
