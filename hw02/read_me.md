@@ -1,6 +1,7 @@
-read_me.txt //Emily Rose
+#Read Me
 
-	1) read_me.txt
+
+	1) read_me.md
 		This file. Describes the contents and purposes of other files in folder.
 
 	2) rose_hw2_main.cpp
