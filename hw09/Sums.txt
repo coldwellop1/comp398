@@ -1,0 +1,11 @@
+Year:		Semester:			Math:		CS:		Music:		Chemistry:
+
+2013		   S 				 16			15 		 18 		   12
+			   Sum				  1 		 1 	 	  0			    0
+			   F				 18 		12 		 15			   15
+2014		   S 				 15			10 		 18 		   17
+			   Sum				  1 		 0 	 	  0				0
+			   F				 17 		12 		 17			   19
+
+
+
